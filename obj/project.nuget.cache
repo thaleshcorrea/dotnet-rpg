@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "oR8uDJhC4U5y6k2MjAvu2Aie0sAKxWAXeEubO5PPTysG/TGWIN8y22gujTpqJt3dbzz4EFgkF5g+knmxaGb+8g==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\dotnet-rpg\\dotnet-rpg.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thale\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\thale\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\thale\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\thale\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\thale\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\thale\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

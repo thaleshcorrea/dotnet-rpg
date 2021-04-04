@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace dotnet_rpg.Controllers
 {
     [ApiController]
-    [Route("[contoller]")]
+    [Route("[controller]")]
     public class FightController : ControllerBase
     {
         private readonly IFightService _fightService;

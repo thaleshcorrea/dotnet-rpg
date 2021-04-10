@@ -31,7 +31,7 @@ namespace dotnet_rpg.Data
                 response.Sucess = false;
                 response.Message = "Usuário não econtrado.";
             }
-            else if (!VerifyPasswordHash(password, user.PasswordHash, user.PasswordSalt))
+            else if (!Helper.VerifyPasswordHash(password, user.PasswordHash, user.PasswordSalt))
             {
                 response.Sucess = false;
                 response.Message = "Senha incorreta.";
@@ -70,22 +70,6 @@ namespace dotnet_rpg.Data
                 return true;
             }
             return false;
-        }
-
-        private bool VerifyPasswordHash(string password, byte[] passwordHash, byte[] passwordSalt)
-        {
-            using (var hmac = new System.Security.Cryptography.HMACSHA512(passwordSalt))
-            {
-                var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
-                for (int i = 0; i < computedHash.Length; i++)
-                {
-                    if (computedHash[i] != passwordHash[i])
-                    {
-                        return false;
-                    }
-                }
-                return true;
-            }
         }
 
         private string CreateToken(User user)

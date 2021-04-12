@@ -1,6 +1,6 @@
-namespace dotnet_rpg.Data
+namespace dotnet_rpg.Util
 {
-    public static class Helper
+    public static class AuthUtil
     {
         public static void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
         {
